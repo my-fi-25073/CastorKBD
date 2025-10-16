@@ -1269,6 +1269,173 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:1N4148WS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148WS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-323"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?323*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148WS_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148WS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_ST_STM32F0:STM32F072CBTx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2428,6 +2595,180 @@
 					(alternate "USART2_RX" bidirectional line)
 					(alternate "USART4_DE" bidirectional line)
 					(alternate "USART4_RTS" bidirectional line)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_marbastlib-choc:choc_v1_SW_solder"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CH"
+				(at 3.048 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "choc_v1_SW_solder"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_marbastlib-choc:SW_choc_v1_1u"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "choc_v1_SW_solder_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.1684 1.1684)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.032 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 				)
 			)
 			(embedded_fonts no)
@@ -3977,6 +4318,30 @@
 		)
 	)
 	(rectangle
+		(start 140.97 116.84)
+		(end 163.83 137.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0bd35ace-2eb1-48cd-ac90-2a084a60d889)
+	)
+	(rectangle
+		(start 95.25 29.21)
+		(end 118.11 49.53)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0f54e019-136c-42d3-8dbe-f7a8fa18b085)
+	)
+	(rectangle
 		(start 12.7 199.39)
 		(end 54.61 237.49)
 		(stroke
@@ -3987,6 +4352,30 @@
 			(type none)
 		)
 		(uuid 10af5480-302f-446d-b8c0-e7cafb4c7eac)
+	)
+	(rectangle
+		(start 427.99 69.85)
+		(end 450.85 90.17)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 17ba08eb-1b64-45d4-a08d-ecc99ed1ec5d)
+	)
+	(rectangle
+		(start 313.69 74.93)
+		(end 336.55 95.25)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1c2c843c-8c7b-4de5-b4d4-e5ecbce80d5b)
 	)
 	(rectangle
 		(start 119.38 226.06)
@@ -4001,6 +4390,66 @@
 		(uuid 1f1afd36-9034-4ff9-97ed-baeac1dba2e2)
 	)
 	(rectangle
+		(start 427.99 49.53)
+		(end 450.85 69.85)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1ff01eea-174e-4e2e-8371-73d538359127)
+	)
+	(rectangle
+		(start 359.41 104.14)
+		(end 382.27 124.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 26a1e0e6-43d5-4235-abc5-a82b378ee2e1)
+	)
+	(rectangle
+		(start 49.53 90.17)
+		(end 72.39 110.49)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2be48740-6922-4855-a378-8cf61bd7888e)
+	)
+	(rectangle
+		(start 313.69 116.84)
+		(end 336.55 137.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 34d9d5e6-6afd-43fe-9cb9-90b4a4949377)
+	)
+	(rectangle
+		(start 26.67 49.53)
+		(end 49.53 69.85)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 35e706ae-5bbc-4f8a-b3ee-9f36619929f2)
+	)
+	(rectangle
 		(start 165.1 226.06)
 		(end 210.82 273.05)
 		(stroke
@@ -4011,6 +4460,42 @@
 			(type none)
 		)
 		(uuid 382ed95d-318b-44ac-9aed-33f7bcb78430)
+	)
+	(rectangle
+		(start 140.97 54.61)
+		(end 163.83 74.93)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3cf10268-b85a-44dd-bf1e-3483fd4abf3b)
+	)
+	(rectangle
+		(start 49.53 49.53)
+		(end 72.39 69.85)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3d3c5787-aecc-4195-be3f-5acd00c6c38a)
+	)
+	(rectangle
+		(start 427.99 90.17)
+		(end 450.85 110.49)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 48552ea1-427b-42fa-9830-4fc89d181348)
 	)
 	(rectangle
 		(start 210.82 200.66)
@@ -4037,6 +4522,30 @@
 		(uuid 4a2b5700-a5d3-486c-aac5-4b23d783770f)
 	)
 	(rectangle
+		(start 72.39 54.61)
+		(end 95.25 74.93)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4c251d8c-a89d-4934-a3c2-d4172599717f)
+	)
+	(rectangle
+		(start 49.53 69.85)
+		(end 72.39 90.17)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4eb20fe5-d958-4cc1-a7b5-e547e4d39f07)
+	)
+	(rectangle
 		(start 402.59 226.06)
 		(end 448.31 273.05)
 		(stroke
@@ -4047,6 +4556,78 @@
 			(type none)
 		)
 		(uuid 5f098cab-40c0-4e11-969e-104d33601d27)
+	)
+	(rectangle
+		(start 359.41 49.53)
+		(end 382.27 69.85)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 60446faf-e2b0-4c76-9702-08679ef80df6)
+	)
+	(rectangle
+		(start 313.69 34.29)
+		(end 336.55 54.61)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 60b1f7a7-ee58-4ed9-8e24-7b3ebfceae89)
+	)
+	(rectangle
+		(start 118.11 74.93)
+		(end 140.97 95.25)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 617b6c40-4e0c-4290-89a5-27035339f367)
+	)
+	(rectangle
+		(start 118.11 54.61)
+		(end 140.97 74.93)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6bfb0e22-83ed-4e87-99b2-05a61baa78fb)
+	)
+	(rectangle
+		(start 382.27 34.29)
+		(end 405.13 54.61)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6eadc3c9-396d-43c7-9f9f-fdb75575c1a3)
+	)
+	(rectangle
+		(start 336.55 74.93)
+		(end 359.41 95.25)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7425091e-1ad8-4df7-85b2-842b037b43a4)
 	)
 	(rectangle
 		(start 12.7 168.91)
@@ -4071,6 +4652,114 @@
 			(type none)
 		)
 		(uuid 7b78e1b7-e684-4b56-a6b3-e6932b7cb96c)
+	)
+	(rectangle
+		(start 118.11 110.49)
+		(end 140.97 130.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7c54a746-81e0-48ee-8bb3-d8be48d2274b)
+	)
+	(rectangle
+		(start 95.25 49.53)
+		(end 118.11 69.85)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7cd6b394-fe40-475f-a271-a13ae7497fe8)
+	)
+	(rectangle
+		(start 95.25 69.85)
+		(end 118.11 90.17)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 866acc78-8d0d-473a-84f5-6896bdc3ab81)
+	)
+	(rectangle
+		(start 405.13 49.53)
+		(end 427.99 69.85)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8cbe5073-abed-410c-ad7c-8f37cff8dbd2)
+	)
+	(rectangle
+		(start 140.97 34.29)
+		(end 163.83 54.61)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8cd6d33a-8319-4e7d-a9a3-78dd08200e58)
+	)
+	(rectangle
+		(start 72.39 34.29)
+		(end 95.25 54.61)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 913f34aa-2f63-4823-ae0c-e7334efa0cb7)
+	)
+	(rectangle
+		(start 336.55 54.61)
+		(end 359.41 74.93)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9510e360-0ef6-4a9e-b315-92efaeef3016)
+	)
+	(rectangle
+		(start 26.67 90.17)
+		(end 49.53 110.49)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 99c7f786-7c3d-448a-b16c-b3df7a2829f5)
+	)
+	(rectangle
+		(start 405.13 69.85)
+		(end 427.99 90.17)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9af868b6-d65c-41d8-bcff-6d75bc548c0a)
 	)
 	(rectangle
 		(start 54.61 168.91)
@@ -4109,6 +4798,30 @@
 		(uuid a17f3a62-be40-4486-95c1-c50f04bcc68a)
 	)
 	(rectangle
+		(start 382.27 54.61)
+		(end 405.13 74.93)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a2b98432-1dd4-484c-a274-0a31e73d5987)
+	)
+	(rectangle
+		(start 140.97 74.93)
+		(end 163.83 95.25)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid acb885ee-d058-4dca-93a0-4df3852876b6)
+	)
+	(rectangle
 		(start 295.91 168.91)
 		(end 337.82 199.39)
 		(stroke
@@ -4119,6 +4832,42 @@
 			(type none)
 		)
 		(uuid b1a19da7-f527-4631-9d58-96fe66b1f957)
+	)
+	(rectangle
+		(start 118.11 34.29)
+		(end 140.97 54.61)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b326aa4b-8f34-4287-845f-bbb132fdb25a)
+	)
+	(rectangle
+		(start 95.25 104.14)
+		(end 118.11 124.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b329f9c2-5ef9-4277-b1d6-937b3c80a203)
+	)
+	(rectangle
+		(start 405.13 90.17)
+		(end 427.99 110.49)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bae2ce2f-6826-4da0-85c9-8ecfdeb13df3)
 	)
 	(rectangle
 		(start 295.91 237.49)
@@ -4145,6 +4894,18 @@
 		(uuid c0517254-7575-459a-a5f4-4ab9d9a1e533)
 	)
 	(rectangle
+		(start 26.67 69.85)
+		(end 49.53 90.17)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c59c7949-863e-4de9-a42e-73f13c8f3f38)
+	)
+	(rectangle
 		(start 295.91 12.7)
 		(end 581.66 273.05)
 		(stroke
@@ -4155,6 +4916,30 @@
 			(type none)
 		)
 		(uuid d081640d-5fab-4725-ad70-dc26cad7ed9c)
+	)
+	(rectangle
+		(start 382.27 74.93)
+		(end 405.13 95.25)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d69eef9b-e74e-4980-9900-fea9a24aef98)
+	)
+	(rectangle
+		(start 336.55 34.29)
+		(end 359.41 54.61)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d7abe9e0-069b-4439-be70-0fe596f4b895)
 	)
 	(rectangle
 		(start 295.91 199.39)
@@ -4181,6 +4966,30 @@
 		(uuid db2f68eb-442b-41c1-a42e-c23c819453b8)
 	)
 	(rectangle
+		(start 72.39 74.93)
+		(end 95.25 95.25)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e7e9c9dc-c54f-4067-b889-4242a98de1b3)
+	)
+	(rectangle
+		(start 313.69 54.61)
+		(end 336.55 74.93)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e8950a0c-a80a-40cf-8584-101987ae2be3)
+	)
+	(rectangle
 		(start 337.82 168.91)
 		(end 402.59 273.05)
 		(stroke
@@ -4205,6 +5014,18 @@
 		(uuid ee9349bc-12a5-4b8b-841d-1195d59a0dbf)
 	)
 	(rectangle
+		(start 359.41 69.85)
+		(end 382.27 90.17)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f0123260-2586-43e2-8fe6-5632f4bfbc4a)
+	)
+	(rectangle
 		(start 12.7 12.7)
 		(end 295.91 273.05)
 		(stroke
@@ -4215,6 +5036,30 @@
 			(type none)
 		)
 		(uuid f52ecb39-899a-4af8-b6b3-dee8b012569f)
+	)
+	(rectangle
+		(start 336.55 110.49)
+		(end 359.41 130.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f5b6f8eb-efdd-4e87-8c15-6be761c5b0a3)
+	)
+	(rectangle
+		(start 359.41 29.21)
+		(end 382.27 49.53)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fb1d8833-a5f7-498a-82d6-ba3c64804358)
 	)
 	(text "ESD Protect"
 		(exclude_from_sim no)
@@ -5872,6 +6717,28 @@
 			)
 		)
 	)
+	(global_label "RIGHT23"
+		(shape input)
+		(at 346.71 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0141a41f-9f75-4543-9668-9085b5b3068f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 335.8629 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DN"
 		(shape input)
 		(at 101.6 215.9 0)
@@ -5890,6 +6757,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LEFT6"
+		(shape input)
+		(at 151.13 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "082cd9fe-0bac-4efc-8f6b-fcbcaf46754d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.702 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LEFT5"
+		(shape input)
+		(at 128.27 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "087b4165-93d4-4edf-89b2-1d77cb8937ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.842 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5960,6 +6871,116 @@
 			)
 		)
 	)
+	(global_label "LEFT12"
+		(shape input)
+		(at 151.13 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1051f5d9-3e6f-4839-9cde-5747d4cb1c1c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.4925 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RIGHT24"
+		(shape input)
+		(at 369.57 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10a0b80f-67f1-4b41-9dc1-5356f6c03841")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 358.7229 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RIGHT31"
+		(shape input)
+		(at 392.43 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "132f0d4d-165d-4bc2-86bd-5ce05431295f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 381.5829 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LEFT15"
+		(shape input)
+		(at 82.55 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13a67587-de8c-423f-8d1c-6b1c39804a91")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.9125 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RIGHT29"
+		(shape input)
+		(at 346.71 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c687d55-c3dc-41b1-9f94-8df07d82fca5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 335.8629 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BOOT-1"
 		(shape input)
 		(at 351.79 193.04 180)
@@ -5982,6 +7003,94 @@
 			)
 		)
 	)
+	(global_label "RIGHT26"
+		(shape input)
+		(at 415.29 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1e3004c3-607a-4e32-b5fa-294f2841aae8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 404.4429 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RIGHT35"
+		(shape input)
+		(at 346.71 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21512e2e-bcaa-4197-84b5-7233d7a94e25")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 335.8629 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LEFT3"
+		(shape input)
+		(at 82.55 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21bedda4-8892-4fc1-ac9c-156974c96dc0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.122 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LEFT21"
+		(shape input)
+		(at 151.13 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "238f1fec-f85a-49aa-9b76-02e308037c54")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.4925 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RST-1"
 		(shape input)
 		(at 68.58 187.96 180)
@@ -5995,6 +7104,50 @@
 		(uuid "2419cc71-3333-41fe-829f-9ece3c3819f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 59.3658 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LEFT1"
+		(shape input)
+		(at 36.83 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27938bf3-f7a8-4256-bac2-3a3d08dd026b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.402 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LEFT8"
+		(shape input)
+		(at 59.69 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f4ac9dc-631a-4656-9a86-8dd1a1e971da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.262 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6070,6 +7223,28 @@
 			)
 		)
 	)
+	(global_label "RIGHT37"
+		(shape input)
+		(at 392.43 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "384572ac-e6f0-456c-ac1e-cd4582f51074")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 381.5829 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USART2_TX"
 		(shape input)
 		(at 140.97 187.96 0)
@@ -6114,6 +7289,28 @@
 			)
 		)
 	)
+	(global_label "LEFT20"
+		(shape input)
+		(at 128.27 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c3fec97-6a19-45cf-8859-c707c1660c02")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.6325 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RST-1"
 		(shape input)
 		(at 351.79 187.96 180)
@@ -6127,6 +7324,94 @@
 		(uuid "4fcf7ffa-9601-46d9-8424-4c19bf77316e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 342.5758 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LEFT13"
+		(shape input)
+		(at 36.83 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "51cc1b84-1dce-481c-bb3d-394fdb631a44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.1925 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RIGHT32"
+		(shape input)
+		(at 415.29 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55ed2bec-4693-4863-8ef4-fd6fc4749acc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 404.4429 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LEFT4"
+		(shape input)
+		(at 105.41 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e777b23-ec2d-43c6-8135-01055e24f6a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.982 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LEFT16"
+		(shape input)
+		(at 105.41 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66b93c81-d95b-4ed9-a84b-0bbc50fa30a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.7725 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6198,6 +7483,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LEFT19"
+		(shape input)
+		(at 105.41 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "72d3c2e4-4ae6-4b71-8045-b621789e59c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.7725 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LEFT9"
+		(shape input)
+		(at 82.55 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "759f80aa-4033-49ad-887c-b21960935f23")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.122 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6334,6 +7663,160 @@
 			)
 		)
 	)
+	(global_label "LEFT2"
+		(shape input)
+		(at 59.69 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "937647c7-00be-466f-8d85-6b8b8c582357")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.262 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LEFT17"
+		(shape input)
+		(at 128.27 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "950ebb18-d704-4c1b-ad13-436171601b9d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.6325 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LEFT7"
+		(shape input)
+		(at 36.83 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "99aaa0f0-9bee-4fbc-816c-0fcfb20868c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.402 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RIGHT36"
+		(shape input)
+		(at 369.57 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f468d66-4e5b-476e-84e7-5732549b0da4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 358.7229 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RIGHT30"
+		(shape input)
+		(at 369.57 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0037c24-1eb7-4788-9f2d-fff53b8ed95c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 358.7229 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RIGHT42"
+		(shape input)
+		(at 369.57 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ac461695-1efd-417a-ba74-d2757cae032a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 358.7229 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LEFT11"
+		(shape input)
+		(at 128.27 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bbf9f472-791c-4161-95bf-c055dcd845fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.6325 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DP"
 		(shape input)
 		(at 101.6 218.44 0)
@@ -6352,6 +7835,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LEFT14"
+		(shape input)
+		(at 59.69 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0c0b384-9671-4277-b3b1-c94d67414b01")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.0525 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LEFT18"
+		(shape input)
+		(at 151.13 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1dc8943-76e9-43c4-ae41-05ae89220eb5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.4925 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6378,6 +7905,94 @@
 			)
 		)
 	)
+	(global_label "RIGHT33"
+		(shape input)
+		(at 438.15 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c9e6e028-ab77-4b10-8431-03748f952231")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 427.3029 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RIGHT22"
+		(shape input)
+		(at 323.85 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc57726f-c7ae-4bd7-ad1f-1a4cd1136ad4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 313.0029 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RIGHT38"
+		(shape input)
+		(at 415.29 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce0f7463-d9d3-47c8-aa0d-5b48eff72ccc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 404.4429 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RIGHT41"
+		(shape input)
+		(at 346.71 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cec2a384-5697-4501-adfc-c5c96fccba8b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 335.8629 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USART2_RX"
 		(shape input)
 		(at 140.97 185.42 0)
@@ -6396,6 +8011,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RIGHT28"
+		(shape input)
+		(at 323.85 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dafbc773-fc36-4fa3-82ae-1d0d23e20fc9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 313.0029 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6422,6 +8059,94 @@
 			)
 		)
 	)
+	(global_label "LEFT10"
+		(shape input)
+		(at 105.41 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1831e2d-48c1-4d1e-a8be-18c66f8e47ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.7725 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RIGHT25"
+		(shape input)
+		(at 392.43 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e28a826b-de0f-49da-924b-59f98136ae5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 381.5829 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RIGHT40"
+		(shape input)
+		(at 323.85 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3c1305a-4e8f-48fe-b354-1516b96b2c20")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 313.0029 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RIGHT39"
+		(shape input)
+		(at 438.15 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6ca8d78-244c-42d2-a734-64c055e8c813")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 427.3029 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BOOT-1"
 		(shape input)
 		(at 26.67 251.46 180)
@@ -6435,6 +8160,50 @@
 		(uuid "e7ace3a1-07b7-4955-a76f-6145e41a92b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 16.0043 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RIGHT34"
+		(shape input)
+		(at 323.85 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e84f3e67-f08f-4479-abe4-0e5a7016f96a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 313.0029 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RIGHT27"
+		(shape input)
+		(at 438.15 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f758a12f-5c10-4444-b855-3e1e5f24003d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 427.3029 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6463,6 +8232,74 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 107.95 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02ab019c-e77a-4f5b-a1d5-7b45b5f00f44")
+		(property "Reference" "MX1"
+			(at 107.95 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 107.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "835c3da3-9cf0-43d9-a8b0-5956795ef4e9")
+		)
+		(pin "1"
+			(uuid "5b7a313f-c5b2-417b-accc-658ec866774f")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX1")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -6527,6 +8364,72 @@
 			(project "Castor"
 				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 397.51 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0446570b-ad3f-4b0f-970d-e33e0aa09f01")
+		(property "Reference" "#PWR072"
+			(at 397.51 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 397.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 397.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 397.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 397.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d0f4191-5358-4173-9e52-3d9b8b3a084f")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -6732,6 +8635,139 @@
 			(project "Castor"
 				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 351.79 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09c6d66d-2f62-4659-8598-b9f2e899f806")
+		(property "Reference" "#PWR070"
+			(at 351.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 351.79 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 351.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83777f50-e69e-4a16-b895-a0055d129720")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 130.81 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a8373d7-196f-4229-95cb-8fe5dd284224")
+		(property "Reference" "MX28"
+			(at 130.81 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 130.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 130.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 130.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "13df076b-4bdf-47bd-bf78-6158bbf9c8dd")
+		)
+		(pin "1"
+			(uuid "30572fa5-67fb-4fd7-a925-bf9e467491eb")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX28")
 					(unit 1)
 				)
 			)
@@ -7034,6 +9070,474 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 107.95 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e3ebc49-4f77-4d14-84e6-86a3081e13c9")
+		(property "Reference" "MX23"
+			(at 107.95 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 107.95 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 107.95 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 107.95 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9fec4834-1ddf-4b1e-ad52-4cdf09e528dc")
+		)
+		(pin "1"
+			(uuid "4ab15777-166e-4e7c-a43a-1ae1a721cd19")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 326.39 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1066c6e5-a130-4f9d-846c-d3253307d486")
+		(property "Reference" "MX6"
+			(at 326.39 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 326.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 326.39 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 326.39 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 326.39 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ffd7efe5-c300-4ede-8af2-72c776d244b0")
+		)
+		(pin "1"
+			(uuid "3a40d49d-6765-4f9a-8d8b-44eaf29232e8")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13e5251f-bce1-45ff-a90d-a0c2f942e2af")
+		(property "Reference" "#PWR049"
+			(at 64.77 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bb512e3-6012-4da4-ad0c-d1f6f35c93b2")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14dfbfd7-b79a-4506-a80b-fe22e3b3d8f3")
+		(property "Reference" "#PWR051"
+			(at 110.49 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17d5c391-733f-4c22-9d24-e44ac0510c29")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15253093-8807-46d3-8628-79e44f47e523")
+		(property "Reference" "#PWR044"
+			(at 87.63 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "106d0aab-b88d-42fd-af2e-20f7e2b4f1f9")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 374.65 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18a03e98-b00a-4872-a6b5-d6388deb04f1")
+		(property "Reference" "#PWR071"
+			(at 374.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 374.65 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 374.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 374.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 374.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cabf687-812a-49cb-a0fd-0f80195878c7")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 372.11 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "199b95e6-dc60-4d74-b5e9-1cff2e8e91da")
+		(property "Reference" "MX2"
+			(at 372.11 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 372.11 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 372.11 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 372.11 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 372.11 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3dad4db1-78af-4e7d-b564-e8f561112c38")
+		)
+		(pin "1"
+			(uuid "f64fa232-82b3-4aec-8c58-2a2ae64d0ad6")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 422.91 180.34 270)
 		(unit 1)
@@ -7100,6 +9604,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 33.02 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c28c60f-1a2c-4aa6-9dec-acc3c26025f2")
+		(property "Reference" "D1"
+			(at 33.02 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 33.02 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 33.02 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 33.02 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 33.02 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 33.02 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 33.02 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "006c09d8-308a-4ff8-b95b-f919a994eada")
+		)
+		(pin "1"
+			(uuid "409e5503-f2a8-400c-a69f-cbb7b7508b59")
+		)
+		(instances
+			(project ""
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 140.97 236.22 0)
 		(unit 1)
@@ -7160,6 +9750,74 @@
 			(project "Castor"
 				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 394.97 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "221c507e-afd8-4dde-ae3b-86b6d113e4e9")
+		(property "Reference" "MX8"
+			(at 394.97 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 394.97 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 394.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 394.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 394.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d88fadff-711e-4bab-b35c-c1ce0f6d3536")
+		)
+		(pin "1"
+			(uuid "f35e0d59-c0e8-43c5-ad7b-dd4f3fb9d44f")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX8")
 					(unit 1)
 				)
 			)
@@ -7303,6 +9961,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 351.79 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23276ed4-f0e2-413a-a67b-fe9c82822b80")
+		(property "Reference" "#PWR064"
+			(at 351.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 351.79 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 351.79 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0bd30a9-d76a-4e50-b08f-37873f4aa824")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 29.21 261.62 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7362,6 +10086,72 @@
 			(project "Castor"
 				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "247ce201-4803-491f-aa1b-ced2cb561f1b")
+		(property "Reference" "#PWR046"
+			(at 133.35 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "245fe02f-fa2b-4ccc-8238-e57ba7403f94")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -7497,6 +10287,72 @@
 			(project "Castor"
 				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a1b8f94-76b2-4e88-80c2-278d1db0964c")
+		(property "Reference" "#PWR037"
+			(at 64.77 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efbfbd0a-8303-4d42-8887-4cf8a848aac0")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -7727,6 +10583,206 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 328.93 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e1528b8-446f-4dcc-b05b-098b33b367cd")
+		(property "Reference" "#PWR075"
+			(at 328.93 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 328.93 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 328.93 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4461abd3-6399-4736-b2dd-0705a69feab0")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 374.65 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f06d80d-6993-4fb5-bd7c-d23b00762fe5")
+		(property "Reference" "#PWR065"
+			(at 374.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 374.65 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 374.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 374.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 374.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8b9c637-1779-4a42-af00-b93741525c28")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 372.11 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f84ef9a-3a5e-49b0-babd-93c9fe4ba36a")
+		(property "Reference" "MX12"
+			(at 372.11 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 372.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 372.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 372.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 372.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0593edbe-2fde-49e6-b3a4-b89ee549fef8")
+		)
+		(pin "1"
+			(uuid "88ced727-69b0-4c8f-8528-15b5e19a62a0")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
 		(at 516.89 233.68 0)
 		(unit 1)
@@ -7837,6 +10893,210 @@
 			(project "Castor"
 				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 39.37 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "317ad4e0-ab40-48d2-a785-6044737cd71e")
+		(property "Reference" "MX33"
+			(at 39.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 39.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 39.37 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 39.37 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "18f8a7bd-7806-4928-8ca0-7a0a31e7328b")
+		)
+		(pin "1"
+			(uuid "657de8a4-e82a-41b1-8c98-461e0b49a8b4")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 372.11 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31b692e1-1274-4730-83fa-b51f84365697")
+		(property "Reference" "MX38"
+			(at 372.11 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 372.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 372.11 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 372.11 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 372.11 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c809b5bc-453f-4259-b69e-c90b3b3f764c")
+		)
+		(pin "1"
+			(uuid "5b1df425-1b6a-4093-9a91-b9bf566309c6")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 85.09 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "332805d9-4272-4115-972e-24f675af4898")
+		(property "Reference" "MX3"
+			(at 85.09 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 85.09 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 85.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 85.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e2527be-1e09-4ba3-9775-722eb3f10cc3")
+		)
+		(pin "1"
+			(uuid "73042a47-2c6a-403b-b971-affa2be50ded")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX3")
 					(unit 1)
 				)
 			)
@@ -7988,6 +11248,74 @@
 			(project "Castor"
 				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 85.09 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3852d38c-2f08-4a48-a17d-a1b90060c071")
+		(property "Reference" "MX15"
+			(at 85.09 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 85.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 85.09 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 85.09 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f8cc976f-42a6-4b60-bf6a-ac0554fd4344")
+		)
+		(pin "1"
+			(uuid "4aeada1f-5231-4054-b370-507fce65ba8b")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX15")
 					(unit 1)
 				)
 			)
@@ -8190,6 +11518,342 @@
 			(project "Castor"
 				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 440.69 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d113df2-eee4-47eb-9b54-07be1eee1263")
+		(property "Reference" "MX36"
+			(at 440.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 440.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 440.69 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 440.69 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 440.69 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7af64a9d-d969-4823-ae80-e607913caa0e")
+		)
+		(pin "1"
+			(uuid "b011e856-7afd-4cdd-a004-ac4f61e415cb")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40832775-4707-43a0-a976-c3c6bfd55844")
+		(property "Reference" "#PWR045"
+			(at 110.49 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "829da7b3-154d-4a8e-b336-08cb8ae8c6aa")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 85.09 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4191566d-e3d7-413f-8468-71bb3c4ef410")
+		(property "Reference" "MX27"
+			(at 85.09 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 85.09 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 85.09 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 85.09 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac97a606-2535-4309-9a9c-6a1622fae6a6")
+		)
+		(pin "1"
+			(uuid "60af07ea-ba5c-4e57-a364-35d402e8cd20")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 397.51 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41dbbf82-dbbf-49f0-b272-67274c71576d")
+		(property "Reference" "#PWR060"
+			(at 397.51 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 397.51 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 397.51 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 397.51 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 397.51 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aef8c721-12d0-4d32-8241-ccfc2a06b8ca")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 326.39 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "428dccbe-959a-44b2-9055-390444499975")
+		(property "Reference" "MX18"
+			(at 326.39 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 326.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 326.39 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 326.39 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 326.39 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "13d19e85-5199-44a0-aaaf-2643523cf442")
+		)
+		(pin "1"
+			(uuid "d2512db9-fdd7-433e-ae05-d96a7cd2e48f")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX18")
 					(unit 1)
 				)
 			)
@@ -8419,6 +12083,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 156.21 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d6860c1-f9d2-4640-a20d-364bf040243b")
+		(property "Reference" "#PWR056"
+			(at 156.21 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ade0ba91-9828-4736-87eb-3385b4ebf879")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Polyfuse_Small")
 		(at 260.35 218.44 90)
 		(unit 1)
@@ -8497,6 +12227,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 443.23 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50500dc4-b7b1-41ae-9735-3f6304c1e230")
+		(property "Reference" "#PWR068"
+			(at 443.23 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 443.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 443.23 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 443.23 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 443.23 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bddfef3e-ca64-4a27-be7e-97878eb0412d")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_DPST_x2")
 		(at 321.31 215.9 270)
 		(unit 1)
@@ -8564,18 +12360,84 @@
 			(uuid "1fb9883e-fe60-4744-b8ce-d79d1b336c14")
 		)
 		(pin "4"
-			(uuid "a96db958-cf74-4b03-bc3b-e7ccc9101d51")
+			(uuid "a96db958-cf74-4b03-bc3b-e7ccc9101d52")
 		)
 		(pin "1"
 			(uuid "70c0e832-6e66-4ab0-b93b-6f8443db0e1c")
 		)
 		(pin "3"
-			(uuid "f31edf09-acd1-46af-8931-87d375d66c65")
+			(uuid "f31edf09-acd1-46af-8931-87d375d66c66")
 		)
 		(instances
 			(project "Castor"
 				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
 					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 443.23 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51edc90f-6288-4274-880b-7b881dddfa49")
+		(property "Reference" "#PWR074"
+			(at 443.23 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 443.23 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 443.23 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 443.23 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 443.23 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fcc415d-3235-4ec7-9f53-8172630297cf")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -8782,6 +12644,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 420.37 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5598e375-d4c6-4a41-9f29-9182fd50b667")
+		(property "Reference" "#PWR067"
+			(at 420.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 420.37 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 420.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 420.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 420.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c01f72ef-8722-46aa-b790-a5339928a970")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 394.97 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55df02e0-cdfe-4076-8b17-cab1d1014521")
+		(property "Reference" "MX20"
+			(at 394.97 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 394.97 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 394.97 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 394.97 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 394.97 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d643d48d-9262-4275-a22b-3dd00d358f4f")
+		)
+		(pin "1"
+			(uuid "182de021-9a03-40e7-8c70-b5e1044d3938")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 140.97 180.34 270)
 		(unit 1)
@@ -8842,6 +12838,207 @@
 			(project "Castor"
 				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 328.93 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58408928-5c8d-4cbc-88b8-b6885534ad56")
+		(property "Reference" "#PWR069"
+			(at 328.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 328.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 328.93 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46a8fc47-f55c-47b1-badc-bbf647b3ee10")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 349.25 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a133d05-2be4-4fe8-8b9c-69630e27880f")
+		(property "Reference" "MX40"
+			(at 349.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 349.25 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 349.25 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 349.25 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 349.25 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c3831673-e4e6-4a3e-9ad6-cc4fb17adb85")
+		)
+		(pin "1"
+			(uuid "9fc02ec7-93eb-4ad7-9c68-b16592f87054")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 153.67 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b91ec0c-18a7-4f4c-90d5-a7fa9932e618")
+		(property "Reference" "MX41"
+			(at 153.67 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 153.67 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 153.67 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 153.67 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8340c460-7728-4c2d-b7a6-4e6a9aef1f41")
+		)
+		(pin "1"
+			(uuid "5085830d-9f79-453d-b4ee-73f5af57de64")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX41")
 					(unit 1)
 				)
 			)
@@ -9200,6 +13397,74 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 417.83 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a013f47-a768-4672-9cce-b38a50f2464d")
+		(property "Reference" "MX25"
+			(at 417.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 417.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 417.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 417.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 417.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2f27fcd0-2ff6-45a1-abf5-d81578d8b439")
+		)
+		(pin "1"
+			(uuid "795b6d99-6057-4493-9a6e-2cab6a851292")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 311.15 215.9 0)
 		(mirror y)
@@ -9410,6 +13675,338 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 41.91 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71d55b1a-bec3-4f90-977c-5fe73ab2a573")
+		(property "Reference" "#PWR048"
+			(at 41.91 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a65ce317-e46e-43c0-9b1a-988d66e36344")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7266f7c6-f602-4359-bf57-beb1d2a3c432")
+		(property "Reference" "#PWR050"
+			(at 87.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcd1cfd5-c93f-4af6-8b7c-89071e0dc421")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "751f6c85-98e6-4e13-9bd2-4de668cf3534")
+		(property "Reference" "#PWR040"
+			(at 133.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93382264-6735-40c7-805f-80c8462e7c6e")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 130.81 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "776a075c-3734-411e-88b4-d48a05dc4f6e")
+		(property "Reference" "MX4"
+			(at 130.81 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 130.81 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 130.81 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 130.81 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7d66383b-2772-42b4-94c4-fd4763beea6d")
+		)
+		(pin "1"
+			(uuid "2592dc63-4c5f-4959-b902-b6b07ad914df")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 351.79 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78861838-85d6-4137-bfb6-afe988d4f8ef")
+		(property "Reference" "#PWR058"
+			(at 351.79 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 351.79 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 351.79 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db8b96ff-f1b6-44bb-aaa9-5e77abc61296")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 457.2 209.55 0)
 		(unit 1)
@@ -9474,6 +14071,138 @@
 			(project "Castor"
 				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 420.37 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ac2fb2c-d8f1-4dc2-89af-5dd8a61922aa")
+		(property "Reference" "#PWR061"
+			(at 420.37 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 420.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 420.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 420.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 420.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0984cdc-0e41-466a-a812-68d345e2d4e3")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 351.79 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7afb9dcb-61d4-4658-bb7c-718ec932acdb")
+		(property "Reference" "#PWR076"
+			(at 351.79 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 351.79 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 351.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e35e74a-69e5-4781-b78c-f8b0fb990ac3")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -9621,6 +14350,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 133.35 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "810f75e2-a5fc-4c54-9337-66fb71d6a87f")
+		(property "Reference" "#PWR055"
+			(at 133.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81a0dc11-a47f-4742-a70b-435c8e8f73d9")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 187.96 259.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9680,6 +14475,138 @@
 			(project "Castor"
 				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "847f8b26-0bd5-4a49-ac84-3be899344986")
+		(property "Reference" "#PWR053"
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d08f5c0-bd3c-4658-8350-4085c157d7a0")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 328.93 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85bb88fb-af0b-47a2-aa58-90ff7f1bf40c")
+		(property "Reference" "#PWR057"
+			(at 328.93 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 328.93 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 328.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f849671-2572-4c95-af6e-7cb306a360b2")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -9751,13 +14678,13 @@
 			(uuid "cccdaf02-f1d8-43fb-905d-a12b56daeadd")
 		)
 		(pin "4"
-			(uuid "a96db958-cf74-4b03-bc3b-e7ccc9101d52")
+			(uuid "a96db958-cf74-4b03-bc3b-e7ccc9101d53")
 		)
 		(pin "1"
 			(uuid "0ef01d94-33b5-4e49-92b1-823ebc0d1f19")
 		)
 		(pin "3"
-			(uuid "f31edf09-acd1-46af-8931-87d375d66c66")
+			(uuid "f31edf09-acd1-46af-8931-87d375d66c67")
 		)
 		(instances
 			(project "Castor"
@@ -9987,6 +14914,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 156.21 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bd472f5-16a3-42ec-a3a9-a3467738cbcc")
+		(property "Reference" "#PWR047"
+			(at 156.21 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1d88a8e-2f3d-4b9d-86b1-4a53d336d90b")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 397.51 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c2ddfc4-aef2-4059-9229-658e60496a57")
+		(property "Reference" "#PWR066"
+			(at 397.51 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 397.51 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 397.51 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 397.51 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 397.51 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95683e35-3b57-4613-ac85-166d789a1b1a")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 148.59 209.55 0)
 		(unit 1)
@@ -10127,6 +15186,140 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 440.69 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "951d099a-f618-406b-a554-68044db1bc7b")
+		(property "Reference" "MX26"
+			(at 440.69 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 440.69 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 440.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 440.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 440.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2798aeed-a8f4-40a1-86b2-fd1a59beea88")
+		)
+		(pin "1"
+			(uuid "b0710909-7fa9-4031-a3e2-7e8c4e110677")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 443.23 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "975ebb88-797c-4031-916b-7fc194d86767")
+		(property "Reference" "#PWR062"
+			(at 443.23 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 443.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 443.23 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 443.23 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 443.23 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "128bb175-9150-4d27-b3c6-f456947257f1")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
 		(at 233.68 233.68 0)
 		(unit 1)
@@ -10243,6 +15436,142 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 440.69 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a49025b-c732-4e14-894b-99f21ad6eece")
+		(property "Reference" "MX14"
+			(at 440.69 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 440.69 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 440.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 440.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 440.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "45f66120-a8fb-4107-a0df-92ebfdc91b11")
+		)
+		(pin "1"
+			(uuid "dc5e92c6-c0a6-40f0-822d-d27c222fee23")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 372.11 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d10a7e9-779e-4878-9fa1-be96582867c2")
+		(property "Reference" "MX24"
+			(at 372.11 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 372.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 372.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 372.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 372.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cf1f91ab-4cbd-49b6-a4d4-fdbccda4e6fd")
+		)
+		(pin "1"
+			(uuid "bb520989-44d0-47ed-92ca-f4f034ca393a")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 330.2 251.46 0)
 		(unit 1)
@@ -10303,6 +15632,74 @@
 			(project "Castor"
 				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 62.23 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9da1ec49-9c79-4176-8e4d-45d80d451c31")
+		(property "Reference" "MX10"
+			(at 62.23 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 62.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 62.23 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 62.23 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ce847b4f-75d2-42bf-b0f1-423e1273c231")
+		)
+		(pin "1"
+			(uuid "4f0e0360-6754-4e5d-8b0f-6b03dfdb3de5")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX10")
 					(unit 1)
 				)
 			)
@@ -10504,6 +15901,278 @@
 			(project "Castor"
 				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 349.25 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad2dd5e3-b96b-46dc-bd68-a29c5d1aeb6c")
+		(property "Reference" "MX31"
+			(at 349.25 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 349.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 349.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 349.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 349.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "05a7f1b0-e8f3-42dc-a092-a201bb4989b1")
+		)
+		(pin "1"
+			(uuid "6c6ba53d-1d42-4fc7-857a-de0c93a7b973")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 39.37 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aebc20d1-a894-4a91-95d5-dea63e7773f2")
+		(property "Reference" "MX9"
+			(at 39.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 39.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 39.37 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 39.37 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6993f582-2c09-40e2-a73d-394e75955ddd")
+		)
+		(pin "1"
+			(uuid "57aa162a-9afa-4671-bba8-dc77c0745c1f")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 153.67 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afb01041-184c-4246-a3f6-cfeb634c9c7e")
+		(property "Reference" "MX29"
+			(at 153.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 153.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 153.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 153.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a743ebb-5f0a-4fbf-890d-7ab467628448")
+		)
+		(pin "1"
+			(uuid "10cc3524-5ef4-4ded-96b2-69f096694454")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 349.25 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0e982e3-b960-4ea9-b834-20c60ccc49ef")
+		(property "Reference" "MX19"
+			(at 349.25 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 349.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 349.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 349.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 349.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e826fa9d-3dde-4413-bef4-6a8c44c61a60")
+		)
+		(pin "1"
+			(uuid "c9542461-319d-492f-8c31-d3f3334a0671")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX19")
 					(unit 1)
 				)
 			)
@@ -10715,6 +16384,74 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 394.97 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8ddc8d6-f55d-4b36-907a-89c4bdf614bb")
+		(property "Reference" "MX32"
+			(at 394.97 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 394.97 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 394.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 394.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 394.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9aba5695-3d76-4e3a-98ea-44c7a2c1a73e")
+		)
+		(pin "1"
+			(uuid "58b0962f-f3ba-4d06-a8b3-4929e4ad0980")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 186.69 209.55 0)
 		(unit 1)
@@ -10845,6 +16582,140 @@
 			(project "Castor"
 				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 153.67 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bce85c40-0298-47f4-8769-9625e16072af")
+		(property "Reference" "MX5"
+			(at 153.67 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 153.67 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 153.67 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 153.67 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "581376fe-3050-44f4-8fc0-dfa88005c604")
+		)
+		(pin "1"
+			(uuid "c0cdbac9-5a7c-4ca5-85a5-734ebf854041")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bddd4bce-988d-427c-b700-2a4b7ea31d2e")
+		(property "Reference" "#PWR052"
+			(at 133.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f968e56-5325-415f-9a59-f9b7306abdad")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -10999,6 +16870,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 41.91 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3b23150-2fc4-4f8e-9618-f80ddf30e3b1")
+		(property "Reference" "#PWR042"
+			(at 41.91 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4787136d-04dc-4568-b541-b6f5facf5abe")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c73262fb-0c9c-4f52-a5ed-4ef6d2e5d67e")
+		(property "Reference" "#PWR038"
+			(at 87.63 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36cafd66-4cf9-46f5-aab0-a4e8a2370e68")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 175.26 245.11 0)
 		(unit 1)
@@ -11059,6 +17062,138 @@
 			(project "Castor"
 				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 420.37 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8ba6ced-9840-445f-8848-b5b1f8e8edd1")
+		(property "Reference" "#PWR073"
+			(at 420.37 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 420.37 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 420.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 420.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 420.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2063770-4b79-4b9d-a65e-6645da824faa")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 374.65 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9aacddf-a5b5-426e-9abb-10173344b982")
+		(property "Reference" "#PWR077"
+			(at 374.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 374.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 374.65 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 374.65 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 374.65 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4aa2ce2-2f1f-49bd-a2be-fb8e1500468c")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -11139,6 +17274,74 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 417.83 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbaaf0d3-4c44-4934-a6ab-be3eee8016b9")
+		(property "Reference" "MX35"
+			(at 417.83 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 417.83 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 417.83 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 417.83 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 417.83 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9ac32870-81da-4b24-88fe-08e55b2c30e2")
+		)
+		(pin "1"
+			(uuid "6d7d5dc4-1cf1-45f9-8df6-b12bc126e0d9")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 267.97 213.36 0)
 		(unit 1)
@@ -11199,6 +17402,74 @@
 			(project "Castor"
 				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 130.81 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0544e0d-f0ee-4a46-8a18-893d51639bfb")
+		(property "Reference" "MX39"
+			(at 130.81 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 130.81 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 130.81 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 130.81 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "144d39e3-fbb7-414f-9fe2-75651933c553")
+		)
+		(pin "1"
+			(uuid "dabe962a-79ca-4f84-a165-a1e2de92c09a")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX39")
 					(unit 1)
 				)
 			)
@@ -11271,6 +17542,142 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 326.39 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0bf4190-dec9-49f9-b9bc-40917cf07514")
+		(property "Reference" "MX30"
+			(at 326.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 326.39 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 326.39 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 326.39 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 326.39 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f5dc0282-1315-4d67-960e-03d8be7aa2b1")
+		)
+		(pin "1"
+			(uuid "f54652da-126c-464e-bfcb-441de10b26ad")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 417.83 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1a0890f-2c7a-4d28-af4e-605e37890629")
+		(property "Reference" "MX13"
+			(at 417.83 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 417.83 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 417.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 417.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 417.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d516d033-2797-4d27-970f-58dee293f8c8")
+		)
+		(pin "1"
+			(uuid "56073110-ad4f-48e4-929e-59658edc9e99")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_DPST_x2")
 		(at 320.04 251.46 0)
 		(unit 1)
@@ -11336,18 +17743,150 @@
 			(uuid "d854eaba-002a-411e-959b-16b36f572184")
 		)
 		(pin "4"
-			(uuid "a96db958-cf74-4b03-bc3b-e7ccc9101d52")
+			(uuid "a96db958-cf74-4b03-bc3b-e7ccc9101d54")
 		)
 		(pin "1"
 			(uuid "6362942c-c20d-447b-b86f-bb471a987fa7")
 		)
 		(pin "3"
-			(uuid "f31edf09-acd1-46af-8931-87d375d66c66")
+			(uuid "f31edf09-acd1-46af-8931-87d375d66c68")
 		)
 		(instances
 			(project "Castor"
 				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
 					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 41.91 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d848bbf6-e30e-4d72-8dfe-1310758760b9")
+		(property "Reference" "#PWR0121"
+			(at 41.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a43be56-caae-4de9-9307-c06981d128d6")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db477f3d-103c-4601-8e03-ff401308f1b1")
+		(property "Reference" "#PWR041"
+			(at 156.21 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19e0e202-56c3-4cea-a2cc-bd45d2fd3bad")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -11424,6 +17963,140 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 153.67 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcf6abff-8b32-4688-a1b2-edccba19fdd1")
+		(property "Reference" "MX17"
+			(at 153.67 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 153.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 153.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 153.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "00c4e27b-33c5-4bc4-9cde-0c8f4e9e4ce2")
+		)
+		(pin "1"
+			(uuid "d45c1c95-f83c-4fa5-a7b0-58a188ba9c81")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd388997-b7c6-4dfc-a59f-6212e544497c")
+		(property "Reference" "#PWR054"
+			(at 110.49 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29a37f05-50f6-4174-8f5f-1ff44550d745")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 444.5 214.63 0)
 		(unit 1)
@@ -11484,6 +18157,274 @@
 			(project "Castor"
 				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 107.95 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfe9d3ca-044e-4fad-ba12-034fac82209a")
+		(property "Reference" "MX37"
+			(at 107.95 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 107.95 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 107.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 107.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb31457f-74b1-42ba-a2a1-7ff51b894579")
+		)
+		(pin "1"
+			(uuid "db2dd3bd-ffac-498f-8b21-1230bdad1673")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 374.65 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e25c3d11-6693-4020-8399-e477d92481a1")
+		(property "Reference" "#PWR059"
+			(at 374.65 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 374.65 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 374.65 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 374.65 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 374.65 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fd1b623-9228-4d49-bdc6-772db10ac805")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 62.23 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e28abc02-e0f9-4d85-8a7c-87b5a955b848")
+		(property "Reference" "MX22"
+			(at 62.23 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 62.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 62.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 62.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e39e11ba-a38f-4c4e-8bd9-4b91f8b39f88")
+		)
+		(pin "1"
+			(uuid "93e2beaf-2987-47a8-98d8-ae368d955d51")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7ff100c-c717-4a0e-8b11-642e2a40836a")
+		(property "Reference" "#PWR043"
+			(at 64.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e311228-2a3a-4b3a-88d9-2f6a09dd5934")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -11557,6 +18498,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 328.93 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb6ef7c7-b2ea-400e-bb9b-7b8d8faa8b02")
+		(property "Reference" "#PWR063"
+			(at 328.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 328.93 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 328.93 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b31e2e55-28bb-4765-9aff-8a2bde7163a9")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 321.31 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11616,6 +18623,276 @@
 			(project "Castor"
 				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 107.95 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee631da7-3551-491b-9d74-e5634ac0b855")
+		(property "Reference" "MX11"
+			(at 107.95 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 107.95 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 107.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 107.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "62eeeab7-18a1-4a90-bab4-e220186b0648")
+		)
+		(pin "1"
+			(uuid "da4fc160-219b-4b18-b63a-3e14c1e2f68d")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 326.39 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f146ab7c-a955-4dae-8c25-2ef0509b7936")
+		(property "Reference" "MX42"
+			(at 326.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 326.39 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 326.39 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 326.39 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 326.39 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b024e3cb-5ec7-4c5b-8b59-3f5a15b61857")
+		)
+		(pin "1"
+			(uuid "fabc39b4-3627-4a83-8670-4a82dd1b7bc1")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 130.81 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3828631-e502-4071-8e0c-981c0dbb6aa0")
+		(property "Reference" "MX16"
+			(at 130.81 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 130.81 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 130.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 130.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7f81666e-9ef3-40d7-8a57-056b1cb108da")
+		)
+		(pin "1"
+			(uuid "bee03753-f7fa-46be-bf92-be4b04b4c127")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4065493-75d2-496c-86ec-3af6ec373984")
+		(property "Reference" "#PWR039"
+			(at 110.49 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02c87b53-932d-4f3b-94d4-11399fea8358")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -12023,6 +19300,210 @@
 			(project "Castor"
 				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 39.37 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f93e5cd8-6104-4cbc-b795-76222d3d59a8")
+		(property "Reference" "MX21"
+			(at 39.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 39.37 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 39.37 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 39.37 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a4e14f98-42d1-45a1-b5ff-5f6aa9790631")
+		)
+		(pin "1"
+			(uuid "c0ec9db5-ed52-4028-b8f7-151f8017465d")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 349.25 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fafe7399-4ef6-4b19-9a3d-c8fdb1e93eee")
+		(property "Reference" "MX7"
+			(at 349.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 349.25 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 349.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 349.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 349.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f2f117a-4499-43be-b9be-f92d249e12d7")
+		)
+		(pin "1"
+			(uuid "a812effe-b885-48b0-8c45-40b477c09c07")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-choc:choc_v1_SW_solder")
+		(at 62.23 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc36d003-e66f-4f3e-8bc1-4e4daa57d4a5")
+		(property "Reference" "MX34"
+			(at 62.23 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ulp_mx_SW_solder"
+			(at 62.23 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My-Fi Footprints:SW_MX_ULP_1u_Plate"
+			(at 62.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 62.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b81706d3-0266-498c-9714-39fbef6d096b")
+		)
+		(pin "1"
+			(uuid "17f828c0-0f05-49b1-867b-c305081868e5")
+		)
+		(instances
+			(project "Castor"
+				(path "/95b9be63-6e98-430e-8db0-05e0d9f3f205"
+					(reference "MX34")
 					(unit 1)
 				)
 			)
