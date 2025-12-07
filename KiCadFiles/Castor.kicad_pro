@@ -74,6 +74,10 @@
         [
           "silk_edge_clearance|161762313|63162501|756d6d7d-a5b2-49c3-9ad1-28e79ebe0b1b|c74f5c82-f2dc-4cc6-928c-cd7a80a43e48",
           ""
+        ],
+        [
+          "silk_edge_clearance|305208918|87769804|1bd86927-dc9d-458a-b3e3-cbe4b71b2c1f|114a2cb4-95e8-4999-8825-3db9a274b727",
+          ""
         ]
       ],
       "meta": {
@@ -117,15 +121,15 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -537,7 +541,7 @@
       "plot": "../extract/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../extract/Castor.step",
       "svg": "",
       "vrml": ""
     },
