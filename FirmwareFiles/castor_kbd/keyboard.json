@@ -23,9 +23,7 @@
     "split": {
         "enabled": true,
         "serial": {
-            "driver": "usart_full_duplex",
-            "tx_pin": "A2",
-            "rx_pin": "A3"
+            "driver": "usart"
         },
         "transport": {
             "sync": {
