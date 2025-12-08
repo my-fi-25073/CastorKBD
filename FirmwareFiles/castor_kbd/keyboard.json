@@ -45,11 +45,11 @@
         }
     },
     "processor": "STM32F072",
-    "url": "",
+    "url": "https://github.com/my-fi/CastorKBD",
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x0000",
-        "vid": "0xFEED"
+        "vid": "0x4D46",
+        "pid": "0x4354"
     },
     "layouts": {
         "LAYOUT": {
