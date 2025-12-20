@@ -38,7 +38,8 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
-KiCadFiles/production
+
 extract
-KiCadFiles/fabrication-toolkit-options.json
-/KiCadFiles/Choc/production
+**/fabrication-toolkit-options.json
+KiCadFiles/Choc/production
+KiCadFiles/ULP/production
